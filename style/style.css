@@ -1,0 +1,10 @@
+#sortable li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    height: 40px;
+}
+
+#sortable li p{
+    display: inline-block;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Меню заданий</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="libs/normolize.css">
+  <link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+  <link rel="stylesheet" href="style/style.css">
+	</head>
+
+<body>
+
+<div class="container">
+<ul id="sortable">
+  <li class="ui-state-default default" style="display: none">
+  <p>11111</p>
+  <input type="button" value="Edit" class="btn btn-primary pull-right editbut" data-toggle="modal" data-target="#addnewTask2">
+  <input type="button" value="Del" class="btn btn-warning pull-right delbut" >
+  </li>
+ 
+</ul>
+  
+  <div><input type="button" value="New Task" class="btn btn-success" data-toggle="modal" data-target="#addnewTask"></div>
+  
+  
+  </div>
+
+<!-- Модальное окно -->
+  <div class="modal fade" id="addnewTask" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"><!-- Связь с кнопкой , візов модального окна -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">add new task</h4>
+      </div>
+      <div class="modal-body">
+        <textarea name=""  cols="70" rows="10" id="addNewTask"></textarea>
+      </div>
+      <div class="modal-footer">       
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id="saveChangeNewTask">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Модальное окно Edit -->
+<div class="modal fade" id="addnewTask2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2"><!-- Связь с кнопкой , візов модального окна -->
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel2">add new task</h4>
+      </div>
+      <div class="modal-body">
+        <textarea name=""  cols="70" rows="10" id="addNewTask2"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" id="saveChangeNewTask2">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="libs/jquery-3.2.1.min.js"></script>
+  <script src="libs/bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="libs/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+ <script src="libs/js.js"></script>
+
+</body>
+</html>
+
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c3882707-a8b8-42fc-9a31-cdec8137f78c" name="Eatherly" url="http://eatherly.ftp.ukraine.com.ua">
+        <fileTransfer host="eatherly.ftp.ukraine.com.ua" port="21" rootFolder="/eatherly1.com.ua">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
